@@ -1,0 +1,27 @@
+#education {
+  padding: 3em;
+}
+.edu .fa {
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 50%;
+  margin: 0px 5%;
+  padding: 15px;
+}
+.edu-content {
+  padding-top: 20px;
+  box-shadow: 5px 4px 3px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid #b1aeae;
+}
+.edu-content span {
+  font-weight: bold;
+  font-style: italic;
+}
+.edu-content:hover {
+  box-shadow: none;
+}
+.edu-content h5 {
+  padding: 15px;
+}

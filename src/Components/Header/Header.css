@@ -1,0 +1,36 @@
+#header-img {
+  background: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.651)),
+    url("../../../public/img//home-img1.jpg");
+  height: 95vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+#header-img h1 {
+  font-size: 4em;
+  color: white;
+  padding: 0 10px;
+}
+#header-img span {
+  font-size: 1em;
+}
+#header-img span,
+.skills h1,
+#education h1 {
+  color: blueviolet;
+}
+#header-img h3,
+#projects h1 {
+  color: white;
+  word-spacing: 5px;
+}
+@media screen and (max-width: 700px) {
+  #header-img h1 {
+    font-size: 2.7em;
+  }
+}

@@ -1,0 +1,24 @@
+.about {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.308);
+  justify-content: space-evenly;
+  padding: 4em 0 70px;
+}
+.about-me-img img {
+  width: 250px;
+  height: 340px;
+  margin: 1em;
+  box-shadow: 10px 5px 5px grey;
+}
+.about-me-img img:hover {
+  box-shadow: none;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.about-me-content {
+  text-align: justify;
+}
+.about-me-content h2 {
+  color: blueviolet;
+  font-weight: bold;
+}

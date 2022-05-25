@@ -1,0 +1,42 @@
+#projects {
+  background: linear-gradient(
+    to bottom,
+    rgba(137, 43, 226, 0.692),
+    rgba(238, 130, 238, 0.774)
+  );
+  padding: 3em;
+  color: white;
+}
+#projects p {
+  margin: 20px 0;
+}
+.slider-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7px;
+}
+.slider-links a {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: white;
+  opacity: 0.6;
+  border-radius: 10px;
+  border: 2px solid red;
+  padding: 4px 8px;
+  margin: 5px 0;
+  color: blueviolet;
+}
+.slider-links a:hover {
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+.slider-links i {
+  color: red;
+  background-color: yellow;
+  padding: 0 10px;
+}
+.slider-links i:hover {
+  transform: rotateZ(360deg);
+  transition-duration: 0.5s;
+}

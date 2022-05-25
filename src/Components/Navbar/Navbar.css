@@ -1,0 +1,25 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #ba68c8;
+  padding: 0 2em;
+  opacity: 1;
+  z-index: 2;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: rgb(255, 255, 255);
+  font-size: larger;
+}
+.nav-item {
+  padding: 0 0.3em;
+  border-bottom: 3px solid transparent;
+}
+.nav-item:hover {
+  background-color: blueviolet;
+  border-radius: 12px;
+  border-bottom: 3px solid white;
+}
+.navbar-brand {
+  font-size: 35px;
+}
