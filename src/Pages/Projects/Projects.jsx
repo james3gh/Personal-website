@@ -45,7 +45,7 @@ const Projects = () => {
           <ProjectDetail
             index={1}
             img={"./img/Projects/Project-1.jpg"}
-            projectLink={"https://lambent-cascaron-03bdfc.netlify.app/"}
+            projectLink={"https://stack-overflow-again.netlify.app/"}
             githubLink={"https://github.com/james3gh/StackOverflow-project"}
           />
           <ProjectDetail
