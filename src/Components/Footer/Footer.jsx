@@ -8,7 +8,7 @@ const Footer = () => {
         <p>&#169; 2023 All rights reserved by: James Thomas </p>
         <div id="copyright-icons">
           <a
-            href={process.env.REACT_APP_RESUME_LINK}
+            href="https://bit.ly/Resume_oc"
             target="blank"
             rel="noreferrer"
           >
