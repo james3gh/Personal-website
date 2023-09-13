@@ -28,8 +28,9 @@ const Education = () => {
             <EducationDetail
               school={"Indian Institute of Technology BHU, VARANASI"}
               standard={"COLLEGE"}
-              percent={"9.4 CPI"}
+              percent={"9.35 CPI"}
               icon={"graduation-cap"}
+              extra={"BTech Mechanical Engg."}
             />
           </div>
         </div>

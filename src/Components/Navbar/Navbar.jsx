@@ -28,12 +28,6 @@ const MainNavbar = () => {
               <NavItem navItem="About" />
               <NavItem navItem="Projects" />
               <NavItem navItem="Education" />
-              <NavItem navItem="Gallery" />
-              <li className="nav-item">
-                <a className="nav-link" href="#contact">
-                  Contact
-                </a>
-              </li>
             </ul>
           </div>
         </div>

@@ -12,24 +12,58 @@ const About = () => {
           <div className="about-me-content col-lg-7 col-10">
             <h2>ABOUT ME</h2>
             <p>
-              Hi ! I am a full stack MERN developer. Folow me on LinkedIn to get
-              in touch with me :){" "}
+              Hi! I'm an engineering student enthusiastic about software
+              development. Connect with me on LinkedIn to know more :){" "}
             </p>
             <br />
             <h2>PERSONAL INFORMATION</h2>
             <p>
-              I am a student from IITBHU. I have worked with many open-source
-              organization in their projects. Working with GSOC organization,
-              CDLI was my latest experience. I have participated in
-              KWOC'21(open-source fest of IIT Kharagpur), Hacktoberfest, and
-              OpenCode'21(open-source fest of IIIT Allahabad)
+              I am a student of IIT(BHU), Varanasi. I have worked as an{" "}
+              <a
+                href="https://drive.google.com/file/d/1Pc0Cu5MOE8iKryIJDDPEfh6RqkarvAhe/view?usp=drive_link"
+                target="blank"
+                style={{ color: "blue", textDecoration: "underline" }}
+              >
+                SDE Intern
+              </a>{" "}
+              at Amazon. I have also worked with many open-source organization
+              in their projects like, GSOC organization-CDLI,{" "}
+              <a
+                href="https://kwoc.kossiitkgp.org/"
+                target="blank"
+                style={{ color: "blue", textDecoration: "underline" }}
+              >
+                KWOC'21
+              </a>
+              (open-source fest of IIT Kharagpur),{" "}
+              <a
+                href="https://hacktoberfest.com/"
+                target="blank"
+                style={{ color: "blue", textDecoration: "underline" }}
+              >
+                Hacktoberfest
+              </a>
+              , and{" "}
+              <a
+                href="https://opencodeiiita.github.io/"
+                target="blank"
+                style={{ color: "blue", textDecoration: "underline" }}
+              >
+                OpenCode'21
+              </a>
+              (open-source fest of IIIT Allahabad)
             </p>
             <ul>
               <li>Name : James Thomas</li>
-              <li>Age : 20 Years</li>
-              <li>Phone : +01254689</li>
-              <li>Email : James@gmail.com</li>
-              <li>Address : California,USA</li>
+              <li>
+                Age :{" "}
+                {process.env.REACT_APP_MY_AGE
+                  ? process.env.REACT_APP_MY_AGE
+                  : 22}{" "}
+                Years
+              </li>
+              <li>Email : jamesthomas3801@gmail.com</li>
+              <li>Address : Bhopal, India (Pincode: 462023)</li>
             </ul>
           </div>
         </div>
