@@ -12,7 +12,7 @@ const Header = () => {
             color: "blueviolet",
           }}
           hideCursorAfterText={true}
-          multiText={[" I am JAMES THOMAS", " I am a Web Developer"]}
+          multiText={[" I am JAMES THOMAS", " I am a Tech Enthusiast"]}
           multiTextDelay={1000}
           typeSpeed={80}
         />
