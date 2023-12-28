@@ -20,7 +20,7 @@ const About = () => {
             <p>
               I am a student of IIT(BHU), Varanasi. I have worked as an{" "}
               <a
-                href="https://drive.google.com/file/d/1Pc0Cu5MOE8iKryIJDDPEfh6RqkarvAhe/view?usp=drive_link"
+                href="https://drive.google.com/file/d/13nPsQsEsCHdUbwnHPweuWFT9PuJaAVP7/view?usp=sharing"
                 target="blank"
                 style={{ color: "blue", textDecoration: "underline" }}
               >
@@ -45,13 +45,15 @@ const About = () => {
               </a>
               , and{" "}
               <a
-                href="https://opencodeiiita.github.io/"
+                href="https://github.com/opencodeiiita"
                 target="blank"
                 style={{ color: "blue", textDecoration: "underline" }}
               >
                 OpenCode'21
               </a>
-              (open-source fest of IIIT Allahabad)
+              (open-source fest of IIIT Allahabad). I also like solving  <a href="https://leetcode.com/jamesthomas3801/" target="blank"
+                style={{ color: "blue", textDecoration: "underline" }}
+              >coding problems</a> to increase by problem-solving skill.
             </p>
             <ul>
               <li>Name : James Thomas</li>
@@ -59,7 +61,7 @@ const About = () => {
                 Age :{" "}
                 {process.env.REACT_APP_MY_AGE
                   ? process.env.REACT_APP_MY_AGE
-                  : 22}{" "}
+                  : 23}{" "}
                 Years
               </li>
               <li>Email : jamesthomas3801@gmail.com</li>
