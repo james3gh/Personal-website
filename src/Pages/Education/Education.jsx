@@ -16,19 +16,19 @@ const Education = () => {
             <EducationDetail
               school={"St Joseph's Co-Ed School, BHOPAL"}
               standard={"10th"}
-              percent={"95%"}
+              percent={"96.6%"}
               icon={"id-card"}
             />
             <EducationDetail
               school={"St Joseph's Co-Ed School, BHOPAL"}
               standard={"12th"}
-              percent={"94%"}
+              percent={"94.4%"}
               icon={"book"}
             />
             <EducationDetail
               school={"Indian Institute of Technology BHU, VARANASI"}
               standard={"COLLEGE"}
-              percent={"9.35 CPI"}
+              percent={"9.32 CPI"}
               icon={"graduation-cap"}
               extra={"BTech Mechanical Engg."}
             />
